@@ -5,6 +5,7 @@
   color: black;
   user-select: none;
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 html,
 body {
@@ -62,7 +63,4 @@ body {
 }
 .btn {
   margin-top: 50px;
-}
-.form-control input[type="text"] {
-  height: 50px;
 }
