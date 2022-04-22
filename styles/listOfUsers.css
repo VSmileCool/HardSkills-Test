@@ -1,0 +1,114 @@
+.toolbar {
+  background-color: #4682b4;
+  width: 100%;
+  height: 75px;
+}
+
+#btnBack,
+#btnSignIn {
+  left: 75%;
+}
+
+#box_of_sorts {
+  margin-top: 2%;
+  height: 75px;
+  width: 570px;
+  border: 3px solid #4682b4;
+  border-radius: 10px;
+}
+
+#sort_by {
+  font-family: "Montserrat", sans-serif;
+  color: #4682b4;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 5%;
+  border: 5px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-collapse: collapse;
+  outline: 3px solid #4682b4;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  background: #fff !important;
+}
+.table th {
+  font-weight: bold;
+  color: #ffffff;
+  padding: 7px;
+  background: #4682b4;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #4682b4;
+}
+.table td {
+  padding: 7px;
+  border: none;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 15px;
+}
+.table tbody tr:nth-child(even) {
+  background: #f8f8f8 !important;
+}
+#btnBack,
+#btnSignIn {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+}
+
+#btnSortByResult,
+#btnSortByTime,
+#btnSortByUser {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #4682b4;
+  color: #4682b4;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+}
+
+.double-border-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.4s;
+}
+#btnBack:hover:after,
+#btnSignIn:hover:after {
+  border-color: #ffffff;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
+
+#btnSortByResult:hover:after,
+#btnSortByTime:hover:after,
+#btnSortByUser:hover:after {
+  border-color: #4682b4;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
