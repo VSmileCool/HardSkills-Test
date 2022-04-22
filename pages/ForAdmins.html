@@ -48,21 +48,39 @@
             VirtualDOM?
           </h1>
         </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default"
-              >Ваш ответ:</span
-            >
-          </div>
-          <input
-            aria-describedby="inputGroup-sizing-default"
-            aria-label="Default"
-            class="form-control"
-            type="text"
-          />
+        <div class="answers">
+          <ol>
+            <li>Не слышал, не знает, не ответил.</li>
+            <li>Пытался угадать, не угадал.</li>
+            <li>Слышал, пытался угадать, угадал.</li>
+            <li>
+              Поверхностные знания. 5. Достаточные, но не глубокие знания.
+            </li>
+            <li>Глубокое знание области.</li>
+          </ol>
         </div>
+        <div class="info">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Результат</span>
+            </div>
+            <textarea
+              class="form-control"
+              aria-label="With textarea"
+            ></textarea>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Комментарий</span>
+              </div>
+              <textarea
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">Сохранить</button>
       </div>
     </div>
-    <button class="save-button">Save</button>
   </body>
 </html>
