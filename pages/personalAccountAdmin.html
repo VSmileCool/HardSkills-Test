@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/personalAccountAdmin.css" />
+    <title>Personal account admin</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+          <button class="button-back">Back</button>
+        </ul>
+      </header>
+    </div>
+    <div class="b-example-divider"></div>
+    <ul class="info">
+      <li>Admin name: {AdminName}</li>
+    </ul>
+    <ul class="info">
+      <li>Admin name: {UserName}</li>
+    </ul>
+    <div class="choose-settings">
+      <div>
+        <div class="form_radio_btn">
+          <input id="junior" type="radio" name="level" value="1" />
+          <label for="junior">Junior</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="middle" type="radio" name="level" value="2" />
+          <label for="middle">Middle</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="senior" type="radio" name="level" value="3" />
+          <label for="senior">Senior</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="form_radio_btn">
+          <input id="ml" type="radio" name="direction" value="1" />
+          <label for="ml">ML</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="frontend" type="radio" name="direction" value="2" />
+          <label for="frontend">Frontend</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="backend" type="radio" name="direction" value="3" />
+          <label for="backend">Backend</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="form_radio_btn">
+          <input id="javascript" type="radio" name="language" value="1" />
+          <label for="javascript">JavaScript</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="python" type="radio" name="language" value="2" />
+          <label for="python">Python</label>
+        </div>
+
+        <div class="form_radio_btn">
+          <input id="java" type="radio" name="language" value="3" />
+          <label for="java">Java</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
