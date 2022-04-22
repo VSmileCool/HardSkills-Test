@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
 .b-example-divider {
   height: 1rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -7,6 +8,7 @@
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
     inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
+
 * {
   font-family: "Montserrat", sans-serif;
   user-select: none;
@@ -19,6 +21,7 @@
 .about-button {
   margin-top: 50px;
 }
+
 .form-control-dark:focus {
   color: #fff;
   border-color: #fff;
@@ -37,13 +40,16 @@
 .dropdown-toggle {
   outline: 0;
 }
+
 .nav-link:hover {
   background-color: #0d6efd;
   color: white;
 }
+
 .nav-pills {
   font-weight: 600;
 }
+
 .sidenav {
   height: 100%;
   width: 160px;
@@ -55,6 +61,7 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
+
 .sidenav ul {
   left: 0;
   text-align: center;
@@ -62,14 +69,17 @@
   font-weight: 600;
   list-style-type: none;
 }
+
 .sidenav li:hover {
   cursor: pointer;
   background-color: #0d6efd;
   color: white;
 }
+
 .sidenav ul:first-child {
   margin-top: 200px;
 }
+
 .sidenav li {
   border-radius: 5px;
   margin-right: 10px;
@@ -79,9 +89,11 @@
   background-color: white;
   color: #0d6efd;
 }
+
 .sidenav:first-child {
   margin-top: 1000px;
 }
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -96,6 +108,7 @@
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0 10px;
 }
+
 .save-button {
   border: 5px solid #0d6efd;
   position: fixed;
@@ -109,18 +122,22 @@
   padding: 5px 5px;
   border-radius: 5px;
 }
+
 .save-button:hover {
   background-color: #0d6efd;
   color: white;
 }
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
   }
+
   .sidenav a {
     font-size: 18px;
   }
 }
+
 .question-block {
   border: 3px solid #0d6efd;
   border-radius: 30px;
@@ -129,9 +146,11 @@
   margin-top: 30px;
   padding: 10px;
 }
+
 .question-block h1 {
   font-size: 24px;
 }
+
 .form-control {
   max-width: 1000px;
 }
