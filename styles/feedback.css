@@ -51,6 +51,7 @@ body {
   z-index: 2;
 }
 .btn-primary {
+  width: 300px;
   background-color: black;
   color: white;
   border: none;
