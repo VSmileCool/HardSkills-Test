@@ -17,10 +17,12 @@
   margin-top: 200px;
   margin-left: 900px;
 }
+
 .btn-leave:hover {
   background-color: white;
   color: black;
 }
+
 .my-window {
   margin-right: 100px;
   justify-content: center;
@@ -47,9 +49,11 @@
   margin-top: 100px;
   display: flex;
 }
+
 .nav-link {
   color: black;
 }
+
 .nav-link:hover {
   background-color: black;
   color: white;
@@ -81,15 +85,18 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
   .btn-primary:hover {
     background-color: white;
     color: black;
   }
 }
+
 @media screen and (max-width: 820px) {
   .btn-primary {
     margin: 0;
   }
+
   .windows {
     margin-right: 100px;
     display: flex;
