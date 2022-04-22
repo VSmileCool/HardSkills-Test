@@ -10,8 +10,10 @@
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
   user-select: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .form-control-dark {
