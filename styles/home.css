@@ -1,0 +1,76 @@
+* {
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+.wrapper {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.test-block {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.test-block:hover {
+  box-shadow: 10px 5px 5px darkgray;
+}
+.content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+}
+.content h1 {
+  margin-left: 540px;
+}
+
+.front-tests {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-column-gap: 20px;
+}
+.back-tests {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-column-gap: 20px;
+}
+.full-tests {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-column-gap: 20px;
+}
+.b-example-divider {
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.form-control-dark {
+  color: #fff;
+}
+.form-control-dark:focus {
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
